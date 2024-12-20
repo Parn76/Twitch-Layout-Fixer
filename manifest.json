@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Layout Fixer",
+  "version": "1.0",
+  "description": "Moves the stream info section below the video player on Twitch",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.custom-stream-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.channel-root__upper-watch {
+  order: 2;
+}
+
+.video-player {
+  order: 1;
+}

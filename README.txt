@@ -2,6 +2,7 @@
 
 ## Description
 Twitch Layout Fixer is a browser extension that customizes the layout of Twitch. Specifically, it moves the stream info section below the video player for a cleaner and more organized layout.
+Testet only in Chrome
 
 ## Features
 - Moves the "Stream Info" section below the video player.
